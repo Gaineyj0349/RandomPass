@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gainwise.gaine.randompass.Main4Activity"
+   >
+<TextView
+
+    android:id="@+id/tv1"
+    android:layout_alignParentTop="true"
+    android:layout_centerInParent="true"
+android:textSize="20sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/enterpass1"/>
+
+    <EditText
+android:layout_below="@id/tv1"
+        android:layout_centerInParent="true"
+android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:hint="xxxxxx"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:id="@+id/editText1forpasscreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="6"
+        android:inputType="numberPassword"
+      />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:textSize="20sp"
+        android:layout_below="@id/editText1forpasscreation"
+        android:layout_centerInParent="true"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterpass2"/>
+
+    <EditText
+        android:layout_below="@id/tv2"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:hint="xxxxxx"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:id="@+id/editText2forpasscreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="6"
+        android:inputType="numberPassword"
+        />
+
+    <Button
+        android:id="@+id/button111"
+        android:layout_below="@id/editText2forpasscreation"
+        android:layout_centerInParent="true"
+        android:paddingBottom="4dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveAndExitClicked"
+        android:text="Save And Exit" />
+
+    <Button
+        android:layout_below="@id/button111"
+        android:layout_centerInParent="true"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cancelAndExitClicked"
+        android:text="Cancel And Exit" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-6280186717837639/2662749644"
+        />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+        android:id="@+id/ibINab"
+        android:tint="#ffffff"
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_lock_black_24dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:elevation="@dimen/fab_margin"
+       android:layout_alignParentLeft="true"
+        android:onClick="ibClicked"
+        />
+
+    <TextView
+        android:paddingLeft="@dimen/fab_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/ibINab"
+        android:layout_centerVertical="true"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:id="@+id/mytext"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gainwise.gaine.randompass.MainActivity">
+
+    <item
+        android:id="@+id/pin"
+        android:orderInCategory="100"
+        android:title="PIN Management"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="Share App"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rate"
+        android:orderInCategory="100"
+        android:title="Rate App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/otherapps"
+        android:orderInCategory="100"
+        android:title="More GainWise"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/follow"
+        android:orderInCategory="100"
+        android:title="Follow on FaceBook"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/forgot"
+        android:orderInCategory="100"
+        android:title="Forgot PIN?"
+        app:showAsAction="never" />
+
+
+
+</menu>
+

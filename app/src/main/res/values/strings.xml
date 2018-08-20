@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Password Generator</string>
+    <string name="LL1t"><u>Total Password Length: </u></string>
+    <string name="LL2t"><u>Include lowercase? </u></string>
+    <string name="LL3t"><u>Include UPPERCASE? </u></string>
+    <string name="LL6t"><u>Include Numbers? </u></string>
+    <string name="LL4t"><u>Include Special Characters? </u></string>
+    <string name="enterlabel"><u>Enter a label for this password.</u></string>
+    <string name="LL5t"><u>Include Custom Text:</u></string>
+    <string name="selecticon"><u>SELECT ICON</u></string>
+    <string name="enterpass1"><u>Create PIN up to 6 numbers</u></string>
+    <string name="enterpass2"><u>ReEnter your desired PIN</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Password Vault</string>
+    <string name="dialog2">Thank you for downloading this app!\n\nThe blue lock button (top left) is how you access your password vault.
+    You must use a PIN to gain access. (PIN can be setup by clicking the button or select PIN Management in the menu) </string>
+    <string name="dialog1">Passwords are placed on cards, which are in a scrollable list.\nAny time you navigate away
+    from this part of the app, your vault will close. \n\nClick a card once to save the password to your clipboard. \n\nPress and hold a
+    card to delete the password from your vault. (Another dialog will appear for confirmation to avoid accidental deletions) </string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_0">0</string>
+</resources>

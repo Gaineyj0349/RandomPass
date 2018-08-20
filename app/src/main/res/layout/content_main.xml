@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gainwise.gaine.randompass.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:textSize="20sp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="4dp"
+        android:paddingLeft="12dp"
+        android:id="@+id/tv1LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LL1t"
+        android:textColor="@color/textPrimary"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingRight="4dp"
+            android:paddingLeft="25dp"
+            android:id="@+id/tv2LL1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="25 characters"
+            />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LLforlowerP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Switch
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingLeft="12dp"
+            android:id="@+id/switch1LL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LL2t"
+            />
+
+        <LinearLayout
+            android:id="@+id/LLforlower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingRight="4dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingLeft="25dp"
+                android:id="@+id/tv2LL2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="25 characters"
+                />
+            <SeekBar
+                android:paddingRight="4dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:id="@+id/sb1LL2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLforupperP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Switch
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingLeft="12dp"
+            android:id="@+id/switch1LL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LL3t"
+            />
+
+        <LinearLayout
+            android:id="@+id/LLforupper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingRight="4dp"
+                android:paddingLeft="25dp"
+                android:id="@+id/tv2LL3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="25 characters"
+                />
+            <SeekBar
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingRight="4dp"
+                android:id="@+id/sb1LL3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"/>
+    </LinearLayout>
+
+            <LinearLayout
+        android:id="@+id/LLfornumberP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Switch
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingLeft="12dp"
+            android:id="@+id/switch1LL6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LL6t"
+            />
+
+        <LinearLayout
+            android:id="@+id/LLfornumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingRight="4dp"
+                android:paddingLeft="25dp"
+                android:id="@+id/tv2LL6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="25 characters"
+                />
+            <SeekBar
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingRight="4dp"
+                android:id="@+id/sb1LL6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"/>
+    </LinearLayout>
+            <LinearLayout
+                android:id="@+id/LLforspecialP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Switch
+                    android:textColor="@color/textPrimary"
+                    android:textSize="20sp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="12dp"
+                    android:id="@+id/switch1LL4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LL4t"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/LLforspecial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingLeft="25dp"
+                        android:id="@+id/tv2LL4"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="25 characters"
+                        />
+                    <SeekBar
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="4dp"
+                        android:id="@+id/sb1LL4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:max="10"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#BDBDBD"/>
+            </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLforstringP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Switch
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingLeft="12dp"
+            android:id="@+id/switch1LL5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LL5t"
+            />
+
+        <LinearLayout
+            android:id="@+id/LLforstring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingRight="4dp"
+                android:paddingLeft="25dp"
+                android:id="@+id/tv2LL5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="25 characters"
+                />
+            <EditText
+                android:hint="Text to include"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:id="@+id/editText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLength="20"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"/>
+    </LinearLayout>
+
+    <Button
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="generateClick"
+        android:text="GENERATE" />
+    <TextView
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:id="@+id/tvFORRANDOMGEN"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generated password will appear here!"
+        android:textSize="20sp"/>
+
+    <Button
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy"
+        android:onClick="copyClicked"/>
+
+
+
+    <Button
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Archive"
+        android:onClick="archiveClicked"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android=
+        "http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/business"
+          android:maxLevel="1" />
+    <item android:drawable="@drawable/grocery"
+          android:maxLevel="2" />
+    <item android:drawable="@drawable/ic_audiotrack_black_24dp"
+          android:maxLevel="3" />
+    <item android:drawable="@drawable/ic_build_black_24dp"
+          android:maxLevel="4" />
+    <item android:drawable="@drawable/ic_credit_card_black_24dp"
+        android:maxLevel="5" />
+    <item android:drawable="@drawable/ic_devices_other_black_24dp"
+        android:maxLevel="6" />
+    <item android:drawable="@drawable/ic_event_seat_black_24dp"
+        android:maxLevel="7" />
+    <item android:drawable="@drawable/ic_face_black_24dp"
+        android:maxLevel="8" />
+    <item android:drawable="@drawable/ic_palette_black_24dp"
+        android:maxLevel="9" />
+    <item android:drawable="@drawable/ic_person_outline_black_24dp"
+        android:maxLevel="10" />
+    <item android:drawable="@drawable/ic_spa_black_24dp"
+        android:maxLevel="11" />
+    <item android:drawable="@drawable/transportation"
+        android:maxLevel="12" />
+
+</level-list>
